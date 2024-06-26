@@ -1,0 +1,1 @@
+# otus_pp_type_annotation
