@@ -6,5 +6,5 @@ The type can only be int or subclasses of int.
 """
 
 
-def add[T: int](a: T) -> T:
+def add[T: int](a: T) -> T: # type: ignore[valid-type, name-defined]
     return a

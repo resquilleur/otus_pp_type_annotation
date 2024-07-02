@@ -12,5 +12,4 @@ class Person(TypedDict):
     age: int
 
 
-def foo(**kwargs: Unpack[Person]):
-    ...
+def foo(**kwargs: Unpack[Person]): ...

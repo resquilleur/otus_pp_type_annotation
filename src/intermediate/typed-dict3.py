@@ -9,6 +9,7 @@ The value of each key must be the specified type:
 
 Note: Only `name` is required
 """
+
 from typing import TypedDict, Required
 
 

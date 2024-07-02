@@ -6,6 +6,7 @@ Define a class `Student` that represents a dictionary with three keys:
 - age, an integer
 - school, a string
 """
+
 from typing import TypedDict
 
 

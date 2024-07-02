@@ -1,0 +1,14 @@
+[MAIN]
+
+disable=
+    E0001, # Parsing failed: invalid syntax
+    C0103, # Module name "typed-dict" doesn't conform to snake_case naming style (invalid-name)
+    C0104, # Disallowed name "foo" (disallowed-name)
+    C0114, # Missing module docstring (missing-module-docstring)
+    C0115, # Missing class docstring (missing-class-docstring)
+    C0116, # Missing function or method docstring (missing-function-docstring)
+    W0105, # String statement has no effect (pointless-string-statement)
+    W0611, # Unused Any imported from typing (unused-import)
+    W0613, # Unused argument (unused-argument)
+    W0718, # Catching too general exception Exception (broad-exception-caught)
+    R0903, # Too few public methods (0/2) (too-few-public-methods)

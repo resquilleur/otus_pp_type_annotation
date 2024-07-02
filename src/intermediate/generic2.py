@@ -6,5 +6,5 @@ The type can only be str or int (or their subclasses).
 """
 
 
-def add[T: (str, int)](a: T, b: T) -> T:
+def add[T: (str, int)](a: T, b: T) -> T: # type: ignore[valid-type, name-defined]
     return a
