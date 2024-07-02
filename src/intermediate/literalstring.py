@@ -10,5 +10,4 @@ NOTE: You don't need to implement `execute_query`
 from typing import Iterable, LiteralString
 
 
-def execute_query(sql: LiteralString, parameters: Iterable[str] = ...):
-    ...
+def execute_query(sql: LiteralString, parameters: Iterable[str] = ...): ...
